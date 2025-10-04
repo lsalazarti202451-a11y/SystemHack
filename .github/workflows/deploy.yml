@@ -3,7 +3,7 @@ name: Deploy MkDocs to GitHub Pages
 on:
   push:
     branches:
-      - main   # Se ejecuta cuando haces push a main
+      - main   # Cada vez que hagas cambios en main
 
 jobs:
   deploy:
@@ -21,10 +21,6 @@ jobs:
       - name: Install MkDocs and theme
         run: |
           pip install mkdocs mkdocs-material
-
-      - name: Configure Git remote with token
-        run: |
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
