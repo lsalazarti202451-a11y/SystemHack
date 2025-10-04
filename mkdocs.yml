@@ -2,16 +2,12 @@ site_name: SystemHack
 theme:
   name: material
   palette:
-    - scheme: default
-      primary: lime         
-      accent: light green  
-    - scheme: slate
-      primary: lime
-      accent: light green
-      toggle:
-        icon: material/weather-sunny
-        name: Cambiar a modo claro
-
+    scheme: slate
+    primary: cyan
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
 nav:
   - Estrategia de conversión:
       - Setting: setting.md
