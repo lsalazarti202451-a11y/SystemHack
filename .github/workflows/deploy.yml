@@ -1,3 +1,10 @@
+name: Deploy MkDocs to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main   # Se ejecuta cuando haces push a main
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
