@@ -1,0 +1,10 @@
+site_name: "Mi Documentación"
+site_url: "https://davidnovocr.github.io/SystemHack"
+theme:
+  name: material
+nav:
+  - Inicio: index.md
+  - Guía:
+      - Introducción: guia/intro.md
+      - Instalación: guia/instalacion.md
+  - Acerca de: about.md
