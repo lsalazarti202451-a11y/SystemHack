@@ -3,8 +3,8 @@ theme:
   name: material
   palette:
     scheme: slate
-    primary: Lime
-    accent: Lime
+    primary: lime
+    accent: lime
   font:
     text: Roboto
     code: Roboto Mono
