@@ -1,8 +1,16 @@
 site_name: SystemHack
+theme:
   name: material
   palette:
-    primary: green
-    accent: lime
+    - scheme: default
+      primary: lime         
+      accent: light green  
+    - scheme: slate
+      primary: lime
+      accent: light green
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
 
 nav:
   - Estrategia de conversión:
