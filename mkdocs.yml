@@ -1,6 +1,8 @@
 site_name: SystemHack
-theme:
   name: material
+  palette:
+    primary: green
+    accent: lime
 
 nav:
   - Estrategia de conversión:
